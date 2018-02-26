@@ -1,10 +1,7 @@
 $(document).ready(function() {
-
-
- 
-var template = $('#commerce').html();
-var handtemplate = Handlebars.compile(template);
-console.log(handtemplate);
+  var template = $('#commerce').html();
+  var handtemplate = Handlebars.compile(template);
+  console.log(handtemplate);
 
   $('.link').on('click', function() {
     var valor = $(this).text();
@@ -32,27 +29,25 @@ console.log(handtemplate);
       paypal.minicart.render({
         strings: {
           button: 'Pagar'
-          , buttonAlt: "Total"
+          , buttonAlt: 'Total'
           , subtotal: 'Total:'
           , empty: 'No hay productos en el carrito'
         }
       });
       // Eventos para agregar productos al carrito
 
-      $('.item').click(function (e) {
+      $('.item').click(function(e) {
         e.stopPropagation();
         paypal.minicart.cart.add({
           business: 'sistemasnik20@gmail.com', // Cuenta paypal para recibir el dinero
-          item_name: $(this).attr("titulo"),
-          amount: $(this).attr("precio"),
+          item_name: $(this).attr('titulo'),
+          amount: $(this).attr('precio'),
           currency_code: 'PEN',
 
         });
       });
     }
-
   });
-  
 });
 
 
