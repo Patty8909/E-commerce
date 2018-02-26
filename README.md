@@ -6,20 +6,31 @@
 
 ***
 
-## Flujo de trabajo
+## Objetivo:
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
++ Crear una Single Page App (SPA), que básicamente es un tipo de aplicación web donde todas las pantallas se muestran en la misma página, sin recargar el navegador.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+## Vista desktop de la aplicación web:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+![Sin titulo](public/assets/images/desktop.png)
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+## Herramientas:
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
++ Jquery.
++ API de mercado libre.
++ API de Paypal.
++ Page.js, que es un manejador de rutas en javascript desde el lado del front-end.
++ Handlebars (plantillas). Como su nombre lo dice es un sistema de plantillas y será necesario implementarlo en nuestro proyecto.
++ HTML5.
++ CSS3.
+
+## Planificación:
+
++ Nos organizamos haciendo uso de trello, aquí el [link](https://trello.com/b/Bhkol7h7/e-commerce "link").
+
+![Sin titulo](public/assets/images/trello.png)
+
+## Créditos:
+
++ Nefeli Joñoruco.
++ Patricia Urco.
