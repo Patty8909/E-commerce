@@ -1,10 +1,12 @@
+$('.carousel').carousel()
+
 $(document).ready(function() {
   var template = $('#commerce').html();
   var handtemplate = Handlebars.compile(template);
-  console.log(handtemplate);
+ // console.log(handtemplate);
 
   function categoria(data) {
-    //   console.log(data.results);
+     console.log(data.results);
     $.each(data.results, function(i, array) {
       // console.log(array.title);
       // console.log(array.thumbnail);
