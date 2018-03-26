@@ -1,8 +1,11 @@
 .styleBox {
     height: 55vh;
+    box-shadow:  -10px -10px rgb(22, 101, 204), 0px 0px 20px 5px rgb(243, 94, 121); 
+    margin-top: 10%;
+
 }
 .bg {
-    background-color: rgb(157, 195, 231);
+    background-color: rgb(128, 188, 245);
 }
 .logo {
     margin-top: 6px;
@@ -11,7 +14,7 @@
     font-family: 'Russo One', sans-serif;
 }
 .navbarColor {
-    background-color: rgb(12, 13, 15);
+    background-color: rgb(22, 44, 165);
     border: none;
     padding-bottom: 0;
     margin-bottom: 0px;
@@ -25,25 +28,25 @@
     margin-bottom: 15px;
     padding-top: 0px;
 }
-.car-css {
+.car-css{
  text-align: center;
- background: rgb(241, 188, 10);
+ background: rgb(228, 231, 25);
  margin-left: 25%;
  color: black;
  font-family: fantasy;
  font-size: 20px;
 }
-.product-container {
+.product-container{
  margin-top: 5%; 
 }
-.text {
+.text{
  text-align: center;
  font-size: 30px;
  font-family: fantasy;
  color: rgb(8, 8, 0);
  margin-bottom: 2%;
 }
-.fo {
+.fo{
  color: aliceblue;
  font-size: 20px;
 }
