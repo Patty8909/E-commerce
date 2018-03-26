@@ -1,10 +1,10 @@
 # E-commerce
 
-* **Track:** _Especialización Front-end_
-* **Curso:** _CONSTRUYE UNA SINGLE PAGE APP (SPA) MULTI-USUARIO CONSUMIENDO DATA REMOTA_
-* **Unidad:** _Producto final_
+## Descripción:
 
-***
++ E-commerce es una aplicación web que permite la compra de productos y utiliza las API de Mercado Libre y PayPal para interactuar con sus fuentes de datos. 
+
+
 
 ## Objetivo:
 
