@@ -2,9 +2,9 @@
 
 ## Descripción:
 
-+ E-commerce es una aplicación web que permite la compra de productos y utiliza las API de Mercado Libre y PayPal para interactuar con sus fuentes de datos. 
++ E-commerce es una aplicación web que permite la compra de productos y utiliza las API de Mercado Libre y PayPal para interactuar con sus fuentes de datos.
 
-![Sin titulo](public/assets/images/commerce.png)
+![commerce](https://user-images.githubusercontent.com/32307161/37887009-c4029ed8-3084-11e8-9b0d-7e3bbe002fbe.png)
 
 ## Objetivo:
 
